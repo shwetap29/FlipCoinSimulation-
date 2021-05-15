@@ -19,15 +19,15 @@ do
    count_head=$(( count_head + head ))
    count_tail=$(( count_tail + tail ))
 
-if(( $count_head == 21 ))
+#If its TIE
+if(( $isHead == head ))
      then
-        echo "Head"
+        echo "Tie"
         break
 fi
-if(( $count_tail == 21 ))
+if(( $istail == tail ))
      then
-        echo "Tail"
+        echo "tie"
         break
-fi
+ fi
 done
-
