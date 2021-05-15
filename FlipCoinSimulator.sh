@@ -19,12 +19,12 @@ do
    count_head=$(( count_head + head ))
    count_tail=$(( count_tail + tail ))
 
-if(( $count_head == 11 ))
+if(( $count_head == 21 ))
      then
         echo "Head"
         break
 fi
-if(( $count_tail == 11 ))
+if(( $count_tail == 21 ))
      then
         echo "Tail"
         break
